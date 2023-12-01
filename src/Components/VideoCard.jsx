@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
-import { addToHistory, deleteAVideo, removeVidFromCategory } from '../Services/allApi';
+import { addToHistory, deleteAVideo } from './Services/allApi';
 
 function VideoCard({item,setDeleteVideoStatus}) {
     const handleClose = () => setShow(false);
