@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Col, Row } from 'react-bootstrap';
 import VideoCard from './VideoCard';
-import { deleteACategory, displayCategory, getAVideo, updateCategory, uploadCategory } from './Services/allApi';
+import { deleteACategory, displayCategory, getAVideo, updateCategory, uploadCategory } from '../Services/alApi';
 function Category() {
 
   const [viewCategory,setViewCategory]=useState([])
