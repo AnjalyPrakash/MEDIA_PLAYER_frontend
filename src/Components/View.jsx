@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import VideoCard from './VideoCard'
-import { displayVideo } from '../Services/AllApi'
+import { displayVideo } from './Services/allApi'
 
 
 function View({uploadVideoStatus}) {
